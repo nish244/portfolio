@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<!------Header Section------>
+	<header>
+		<a href="#" class="logo">Nish<span>an</span>t..</a>
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Resume</a></li>
+			<li><a href="#portfolio">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+
+	<!---------Home Section--------------->
+	<section class="home" id="home">
+		<style>
+			.v{
+				width: 1500px;
+				height: 600px;
+				border-radius: 2rem;
+				background-image: url(picture.jpg);
+				background-size: cover;
+				text-indent: 30px;
+			}
+		</style>
+		<div class="v"><br><br><br><br><br><br><br>
+			<div class="slide">
+				<span class="one"> Hello </span>
+				<span class="two">I'm</span>
+			</div>
+			<div class= "h1">  Nishant </div>
+			<h3>IT<span>Student. </span></h3> <br>
+			 <p>We students are passionate about technology, 
+			<br> <p>constantly innovating and problem-solving to</p>  
+			<p>drive digital advancements forward.</p> 
+		</div>
+	</section>
+
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img.jpeg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>An IT Student!</h4>
+			<p>As a diligent student, I am dedicated to pursuing academic excellence and personal growth. Engaged in my studies, I actively participate in classroom discussions and seek opportunities for hands-on learning experiences. With a curious mind and a passion for knowledge, I eagerly explore new subjects and challenge myself to think critically. Committed to my education, I balance coursework with extracurricular activities, honing not only my academic skills but also my leadership and teamwork abilities. I embrace challenges as opportunities for growth and approach each day with enthusiasm and determination.
+
+				</p>
+				<a href="#" class="btn">More About</a>
+		</div>
+	</section>
+
+	<!-----------Services Section-------------->
+	<section class="Resume" id="services">
+	<div class="main-text">
+		<h2><span>My</span>Resume</h2>
+	</div>
+	<div class="services-content">
+		<div class="box">
+			<center>
+			<div class="s-icons">
+				<i class='bx bx-mobile-alt'></i>
+			</div>
+			<h3>My Journey</h3>
+			<p>Dive into my journey defined by innovation, collaboration, and tangible results.</p>
+			 <button
+				class="btn btn-color-2"
+				onclick="window.open('CV.pdf')">
+				Download CV
+			  </button> </center> 
+		  
+		</div>
+
+		
+	</div>
+
+</section>
+
+<!-----------Portfolio Section--------------->
+<section class="portfolio" id="portfolio">
+	<div class="main-text">
+		<h2><span>latest</span>Project</h2>
+	</div>
+	<div class="portfolio-content">
+		<div class="row">
+			<img src="image.png" >
+			<div class="layer">
+				<h5>Temperature Sensor</h5>
+				<p>"This project introduces the LM35 temperature sensor, a precise and economical solution for temperature measurement. Learn its features and practical implementation for accurate temperature readings."
+
+				</p>
+				<a href="https://www.canva.com/design/DAFyp0x_MgE/6xPkdKpgRU9VyGyIbaeiQw/view?utm_content=DAFyp0x_MgE&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"><i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="pic2.jpeg" >
+			<div class="layer">
+				<h5>Railway Gate Control</h5>
+				<p>An Arduino-controlled servo motor integrated with IR sensors enables an automatic train gate system, ensuring safe crossings. Through precise servo movements triggered by IR sensor input, the gate efficiently manages railway traffic.
+
+
+
+
+
+				</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a> 
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Connect With <span>Me!</span></h2>
+		<h4>If you have any project in your mind.</h4>
+		
+		<div class="list">
+			<li><a href="#">9653238708</a></li>
+			<li><a href="#">suryaraonishant24@gmail.com</a></li>
+		</div>
+
+		<div class="contact-icons">
+			<a href="https://www.facebook.com/nishant.suryarao.3/" target="_blank"><i class='bx bxl-facebook'></i></a>
+			<a href="https://www.instagram.com/_nish._.24/?next=%2F" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+			
+		</div>
+
+	</div>
+	<div class="contact-form">
+		<form action="">
+			<input type="name" placeholder="Your Name " required>
+			<input type="email" placeholder="Your Email " required>
+			<input type="number" placeholder="your Mobile Number" required>
+			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<input type="submit" value="Send Message" class="submit" required>
+		</form>
+
+	</div>
+</section>
+
+
+
+</body>
+
+</html>
